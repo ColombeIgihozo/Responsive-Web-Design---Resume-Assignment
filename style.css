@@ -113,13 +113,15 @@ section {
   border-radius: 10px;
 }
 .profile-photo {
-  width:50%;
-  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 2rem;
+  border-radius: 8px;
   object-fit: cover;
-  margin-left: 15rem;
-  align-items: center;
-  
 }
+
 
 
 h2 {
